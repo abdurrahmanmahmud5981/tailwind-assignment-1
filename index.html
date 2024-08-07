@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tailwin Assignment -1</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <header>
+      <nav>
+        <!-- nav-top-bar -->
+        <div class="bg-secondary text-white">
+          <div
+            class="flex flex-col justify-center items-center max-w-screen-xl mx-auto py-4 px-3 gap-2 sm:flex-row sm:justify-between"
+          >
+            <div class="flex items-center space-x-2">
+              <span><i class="fa-solid fa-check"></i></span>
+              <p>Free shipping on all orders over $50</p>
+            </div>
+            <div class="flex items-center space-x-4">
+              <p class="cursor-pointer">
+                <span>Eng</span>
+                <span><i class="fa-solid fa-chevron-down"></i></span>
+              </p>
+              <p>Faqs</p>
+              <p class="space-x-1">
+                <span class="bg-transparent"
+                  ><i class="fa-solid fa-circle-exclamation"></i
+                ></span>
+                <span>Need Help</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- nav-middele-ber -->
+        <div class="bg-primary">
+          <div
+            class="flex justify-center items-center gap-4 max-w-screen-xl mx-auto py-4 md:px-3 md:justify-between flex-wrap md:flex-nowrap"
+          >
+            <div class="flex items-center gap-2 px-4 md:pl-0">
+              <img
+                class="block"
+                src="./assets/images/comforty-logo.svg"
+                alt="company logo"
+              />
+              <h3 class="text-2xl font-medium tracking-normal">Comforty</h3>
+            </div>
+            <div
+              class="flex items-center flex-grow justify-between py-2 px-4 mx-4 bg-white rounded-md md:flex-grow-[.3]"
+            >
+              <input
+                class="bg-white focus:outline-none pr-8"
+                type="text"
+                placeholder="Search here..."
+              />
+              <i class="fa-solid fa-magnifying-glass text-[#272343]"></i>
+            </div>
+            <div class="flex space-x-2 items-center">
+              <a
+                class="py-2 px-4 bg-white rounded-md flex items-center space-x-2"
+                href="#"
+                ><i class="fa-solid fa-shopping-cart"></i>
+                <span class="text-xs font-medium">Cart</span>
+                <span
+                  class="bg-[#007580] text-white rounded-full w-6 h-6 grid place-items-center text-xs"
+                  >2</span
+                ></a
+              >
+              <a class="py-2 px-4 bg-white rounded-md" href="#"
+                ><i class="fa-regular fa-heart"></i
+              ></a>
+              <a class="py-2 px-4 bg-white rounded-md" href="#"
+                ><i class="fa-regular fa-user"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- nav links -->
+        <div
+          class="flex items-center justify-center  max-w-screen-xl mx-auto py-4 px-3 flex-wrap"
+        >
+          <ul class="flex  items-center  flex-grow flex-wrap">
+            <li class="flex-grow sm:flex-grow-0">
+              <a
+                class="text-sm font-medium border rounded px-6 py-3 flex items-center justify-center gap-4 md:justify-start "
+                href=""
+                ><i class="fa-solid fa-bars"></i><span>All Categories</span></a
+              >
+            </li>
+            <div class="flex items-center justify-between flex-wrap  flex-grow sm:flex-grow-0 gap-3 pl-2 sm:px-5 py-3 sm:gap-8 ">
+              <li>
+                <a class="text-primary_1 text-sm font-medium" href="">Home</a>
+              </li>
+              <li>
+                <a class="text-derk_gray text-sm font-medium" href="">Shop </a>
+              </li>
+              <li>
+                <a class="text-derk_gray text-sm font-medium" href=""
+                  >Product</a
+                >
+              </li>
+              <li>
+                <a class="text-derk_gray text-sm font-medium" href="">Pages</a>
+              </li>
+              <li>
+                <a class="text-derk_gray text-sm font-medium" href="">About</a>
+              </li>
+            </div>
+          </ul>
+
+          <p class="flex  gap-3 text-sm font-medium py-3  ">
+            <span class="text-derk_gray text-sm font-medium">Contact:</span>
+            (808) 555-0111
+          </p>
+        </div>
+        <!-- banner section  -->
+         <div class="sm:px-8  border-t mb-12 xl:mb-0">
+          <div class="bg-primary rounded-b-xl relative ">
+            <div class="max-w-screen-xl mx-auto py-28 px-3 flex flex-col items-center justify-between  gap-12  hero bg-no-repeat bg-right-top lg:flex-row lg:gap-8 ">
+              <div class="lg:w-1/2 space-y-6 text-center lg:text-left">
+                <h4 class="text-sm font-normal uppercase text-secondary ">welcome to chairy</h4>
+                <h1 class=" text-secondary text-5xl font-bold md:text-6xl" >Best Furniture Collection for your interior.</h1>
+                <button class="text-white bg-primary_1 text-base font-semibold rounded-lg px-6 py-3 flex items-center gap-2 cursor-pointer"><span>Shop Now </span> <i class="fa-solid fa-arrow-right-long"></i> </button>
+              </div>
+              <div class="relative lg:w-3/6">
+                <img class="" src="./assets/images/hero-image.png" alt="banner chair ">
+                <p class="grid place-items-center p-10 bg-white text-blac absolute top-0 right-0 lg:right-16  rounded-full"><span class="text-3xl text-red-500 font-bold">54%</span><span class="text-sm font-medium ">Discount</span></p>
+              </div>
+            </div>
+            <div class="flex justify-center gap-2 absolute left-1/2 translate-x-[-50%] bottom-24 ">
+              <div class="w-3 h-3 rounded-full bg-slate-400 cursor-pointer"></div>
+              <div class="w-3 h-3 rounded-full bg-black cursor-pointer"></div>
+              <div class="w-3 h-3 rounded-full  bg-slate-400 cursor-pointer"></div>
+            </div>
+          </div>
+         </div>
+         
+      </nav>
+      <!-- banner bottom -->
+      <div class="py-4 px-3 mb-10 xl:mb-0" >
+        <div class=" max-w-screen-xl mx-auto py-12 px-4 rounded-xl grid grid-cols-1 justify-between  gap-8 bg-white shadow-[0px_24px_100px_0px] shadow-secondary/20 sm:grid-cols-2 xl:translate-y-[-54%] xl:px-16 xl:grid-cols-4 ">
+          <div class="flex  justify-start items-center gap-6">
+            <div class="">
+              <img src="./assets/images/discount-box.svg" alt="discount">
+            </div>
+            <div class="">
+              <h3 class="text-secondary text-lg font-medium">Discount</h3>
+              <p class="text-slate-500 text-sm font-normal">Every week new sales</p>
+            </div>
+          </div>
+          <div class="flex  justify-start items-center gap-3">
+            <div class="">
+              <img src="./assets/images/delivery-truck.svg" alt="free shipping">
+            </div>
+            <div class="">
+              <h3 class="text-secondary text-lg font-medium">Free Delivery</h3>
+              <p class="text-slate-500 text-sm font-normal">100% Free for all orders</p>
+            </div>
+          </div>
+          <div class="flex  justify-start items-center gap-6">
+            <div class="">
+              <img src="./assets/images/24-hours.svg" alt="24-hours">
+            </div>
+            <div class="">
+              <h3 class="text-secondary text-lg font-medium">Great Support 24/7</h3>
+              <p class="text-slate-500 text-sm font-normal">We care your experiences</p>
+            </div>
+          </div>
+          <div class="flex  justify-start items-center gap-6">
+            <div class="">
+              <img src="./assets/images/secure-payment.svg" alt="secure-payment">
+            </div>
+            <div class="">
+              <h3 class="text-secondary text-lg font-medium">Secure Payment</h3>
+              <p class="text-slate-500 text-sm font-normal">100% Secure Payment Method</p>
+            </div>
+          </div>
+         </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- product logos -->
+       <div class="max-w-screen-xl mx-auto py-4 px-3 ">
+        <div class="flex justify-center items-center gap-8 flex-wrap lg:justify-between">
+          <img class="w-32 h-32" src="./assets/images/zapier.svg" alt="zapier">
+          <img class="w-32 h-32" src="./assets/images/pipedrive.svg" alt="pipedrive">
+          <img class="w-32 h-32" src="./assets/images/cib-bank.svg" alt="cib-bank">
+          <img class="w-32 h-32" src="./assets/images/z.svg" alt="z">
+          <img class="w-32 h-32" src="./assets/images/burnt-toast.svg" alt="burnt-toast">
+          <img class="w-32 h-32" src="./assets/images/panda-doc.svg" alt="panda-doc">
+          <img class="w-32 h-32" src="./assets/images/moz.svg" alt="moz">
+        </div>
+       </div>
+       <!-- featured product -->
+        <div class="max-w-screen-xl mx-auto py-4 px-3">
+          <div class="">
+            <!-- featured header -->
+             <div class="flex justify-between items-center">
+              <h3 class="text-3xl font-semibold">Featured Products</h3>
+              <div class=" flex items-center gap-3">
+                <i class="fa-solid fa-arrow-left-long rounded-full p-5 text-lg cursor-pointer bg-primary_1  text-white"></i>
+                <i class="fa-solid fa-arrow-right-long rounded-full p-5 text-lg cursor-pointer bg-primary text-secondary"></i>
+              </div>
+             </div>
+             <!-- featured content -->
+              <!-- flex justify-between items-center gap-8 my-10 -->
+              <div class=" gap-8 my-10 grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-4 ">
+                <div class="space-y-3 ">
+                  <img class="w-screen" src="./assets/images/product-1.jpg" alt="chair">
+                  <div class="flex justify-between">
+                    <div class="">
+                      <h5 class="text-base font-normal hover:text-primary_1 transition-all">Library Stool Chair</h5>
+                      <p class="text-lg font-semibold">20$</p>
+                    </div>
+                    <div class="p-3 rounded-lg cursor-pointer bg-primary_1 text-white">
+                      <img src="./assets/images/cart-shop.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="space-y-3">
+                  <img class="w-screen" src="./assets/images/product-2.jpg" alt="chair">
+                  <div class="flex justify-between">
+                    <div class="">
+                      <h5 class="text-base font-normal hover:text-primary_1 transition-all">Library Stool Chair</h5>
+                      <p class="text-lg font-semibold">20$</p>
+                    </div>
+                    <div class="p-3 rounded-lg cursor-pointer bg-primary_1 text-white">
+                      <img src="./assets/images/cart-shop.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="space-y-3">
+                  <img class="w-screen" src="./assets/images/product-3.jpg" alt="chair">
+                  <div class="flex justify-between">
+                    <div class="">
+                      <h5 class="text-base font-normal hover:text-primary_1 transition-all">Library Stool Chair</h5>
+                      <p class="text-lg font-semibold">20$</p>
+                    </div>
+                    <div class="p-3 rounded-lg cursor-pointer bg-primary_1 text-white">
+                      <img src="./assets/images/cart-shop.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+                <div class="space-y-3">
+                  <img class="w-screen" src="./assets/images/product-4.jpg" alt="chair">
+                  <div class="flex justify-between">
+                    <div class="">
+                      <h5 class="text-base font-normal hover:text-primary_1 transition-all">Library Stool Chair</h5>
+                      <p class="text-lg font-semibold">20$</p>
+                    </div>
+                    <div class="p-3 rounded-lg cursor-pointer bg-primary_1 text-white">
+                      <img src="./assets/images/cart-shop.svg" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+    </main>
+    <footer></footer>
+  </body>
+</html>
