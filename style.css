@@ -4,7 +4,7 @@
 @tailwind components;
 @tailwind utilities;
 .hero {
-  background-image: url("../assets/images/hero-bg-shape.svg");
+  background-image: url("./assets/images/hero-bg-shape.svg");
 }
 @layer components {
   .section-ber {
